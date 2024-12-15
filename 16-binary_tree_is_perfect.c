@@ -41,6 +41,6 @@ if (tree == NULL)
 return (0);
 heightt = height(tree);
 sizee = size(tree);
-expected_size = (1 << heightt) - 1;
+expected_size = (1 << heightt) -1;
 return (sizee == expected_size);
 }
